@@ -1,0 +1,152 @@
+header{
+    height: 100vh;
+    background-image: url(img/arno-smit-sKJ7zSylUao-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{margin:0;}
+header div{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(69, 12, 88, 0.322);
+    background:linear-gradient(rgba(231, 61, 194, 0.452),rgb(211, 170, 208)) ;
+}
+header h1{
+    margin:auto;
+    font-family: PressStart;
+    font-size: 7vw;
+    color: rgb(119, 23, 119);
+
+}
+@font-face {
+    font-family: PressStart;
+    src: url(fonts/Triodion/Triodion-Regular.ttf);
+}
+#poem{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    background-color: rgb(211, 170, 208);
+    padding: 50px;
+}
+#poem p{
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(54, 49, 34);
+    border: 5px Solid rgb(99, 54, 0);
+    outline: 10px solid rgb(184, 135, 173);
+    padding: 10px;
+}
+#poem img{
+    height: 340px;
+    object-fit: cover;
+    border: 5px Solid rgb(99, 54, 0);
+    outline: 10px solid rgb(184, 135, 173);
+}
+#priznaki{
+    background:radial-gradient(rgb(151, 68, 158),rgb(206, 152, 202),rgb(211, 170, 208));
+    padding:70px;
+}
+#priznaki h2{
+    text-align:center;
+    color: aliceblue;
+}
+#priznaki ul{
+    color: aliceblue;
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+}
+
+#priznaki li:first-child{
+    background-image: url(img/ромашка.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#priznaki li:nth-child(2){
+    background-image: url(img/сосульки.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#priznaki li:nth-child(3){
+    background-image: url(img/bird_animal_4450.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#priznaki li:nth-child(4){
+    background-image: url(img/ручей.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#prazdniki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+    background-color: rgb(211, 170, 208);
+    padding:50px;
+    object-fit:cover ;
+    font-size:20px ;
+font-family:10px ;
+line-height:2;
+text-align: center;
+padding: 50px;
+}
+#prazdniki a{
+    color: rgb(0, 0, 0);
+    width: 40%;
+    padding: 20px;
+    background-color:rgb(151, 68, 158);
+    border-radius:10px;
+text-decoration:none;
+font-size: 3vw;
+}
+#prazdniki a:hover{
+    border-radius:30px;
+    background-image: url(img/dadalan-real-shRafhEd6Dw-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#prazdniki a{
+    transition: all 1s
+}
+#sunwords{
+    background:linear-gradient(to right,rgb(211, 170, 208),white,white,white,rgb(211, 170, 208)) ;
+    text-align: center;
+}
+#gallery img{
+    width: 23%;
+    height: 300px;
+    object-fit: cover;
+    border: 5px Solid rgb(99, 54, 0);
+    outline: 10px solid rgb(184, 135, 173);
+    }
+#gallery{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        background-color: rgb(211, 170, 208);
+    }
